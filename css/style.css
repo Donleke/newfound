@@ -251,7 +251,7 @@ h6 {
   justify-content: center;
   flex-flow: column;
   text-align: center;
-  padding: 0 1rem;
+  padding: 0 2rem;
   position: relative;
   overflow: hidden !important;
 }
@@ -263,7 +263,7 @@ h6 {
 
 .home h3 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .home h4 {
@@ -295,7 +295,18 @@ h6 {
 
 @media (max-width: 768px) {
   .home {
-    padding-top: 120px;
+    padding: 2rem;
+  }
+
+  .home h1 {
+    color: #fff;
+    font-size: 2.3rem;
+  }
+
+  .home h3 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 1rem;
   }
 }
 
